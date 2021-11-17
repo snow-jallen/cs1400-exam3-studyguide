@@ -11,7 +11,7 @@ namespace Tests
         {
             var actual = Program.CircleDiameter(78.53975);
             var expected = 10;
-            Assert.AreEqual(expected, actual);
+            Assert.AreEqual(expected, actual, .01);
         }
 
         [Test]
