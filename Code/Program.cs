@@ -11,13 +11,13 @@ namespace Code
         }
 
 
-        public static decimal CircleDiameter(decimal area)
+        public static double CircleDiameter(double area)
         {
             //you write this code
             throw new NotImplementedException();
         }
 
-        public static decimal RightTriangleSideLength(decimal side1, decimal angle, decimal side2)
+        public static double RightTriangleSideLength(double side1, double angle, double side2)
         {
             throw new NotImplementedException();
         }

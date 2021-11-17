@@ -9,7 +9,7 @@ namespace Tests
         [Test]
         public void FindDiameter()
         {
-            var actual = Program.CircleDiameter(78.53975M);
+            var actual = Program.CircleDiameter(78.53975);
             var expected = 10;
             Assert.AreEqual(expected, actual);
         }
@@ -19,7 +19,7 @@ namespace Tests
         {
             try
             {
-                var actual = Program.CircleDiameter(0M);
+                var actual = Program.CircleDiameter(0);
                 Assert.Fail("No exception was thrown");
             }
             catch (Exception ex)
